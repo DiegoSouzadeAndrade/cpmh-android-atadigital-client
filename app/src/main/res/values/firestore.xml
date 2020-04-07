@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name = "firestore_users_collection_path_key">users</string>
+	<string name = "firestore_patients_collection_path_key">patients</string>
+	<string name = "firestore_doctors_collection_path_key">doctors</string>
+	<string name = "firestore_patients_collection_array_contains_filter_key">doctors</string>
+</resources>

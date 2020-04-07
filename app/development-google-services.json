@@ -1,0 +1,62 @@
+{
+	"project_info": {
+		"project_number": "863104674505",
+		"firebase_url": "https://beacon-platform-development.firebaseio.com",
+		"project_id": "beacon-platform-development",
+		"storage_bucket": "beacon-platform-development.appspot.com"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:863104674505:android:9856300a8a84aebb",
+				"android_client_info": {
+					"package_name": "br.com.cpmh.ata"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "863104674505-psskiohuavfhf6tsqic9t9bh33tia5ev.apps.googleusercontent.com",
+					"client_type": 1,
+					"android_info": {
+						"package_name": "br.com.cpmh.ata",
+						"certificate_hash": "12b11b9ef229f0beacfb92a10099cb1f51f45afe"
+					}
+				},
+				{
+					"client_id": "863104674505-4rug7dqumq2dj6mj69qvc08f5tpoegaf.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyARuQ4ETipJUvdYoErAAYQiORYr-ykjxq0"
+				}
+			],
+			"services": {
+				"analytics_service": {
+					"status": 1
+				},
+				"appinvite_service": {
+					"status": 2,
+					"other_platform_oauth_client": [
+						{
+							"client_id": "863104674505-4rug7dqumq2dj6mj69qvc08f5tpoegaf.apps.googleusercontent.com",
+							"client_type": 3
+						},
+						{
+							"client_id": "863104674505-lj7bpae6susurp9db660o2si4lirtnab.apps.googleusercontent.com",
+							"client_type": 2,
+							"ios_info": {
+								"bundle_id": "br.com.cpmh.cpmh-plus"
+							}
+						}
+					]
+				},
+				"ads_service": {
+					"status": 2
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}

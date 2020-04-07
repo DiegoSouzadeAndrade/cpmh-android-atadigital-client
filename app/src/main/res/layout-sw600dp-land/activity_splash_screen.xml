@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+	xmlns:app = "http://schemas.android.com/apk/res-auto"
+	xmlns:tools = "http://schemas.android.com/tools"
+	android:id = "@+id/splash_screen_layout"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"
+	tools:context = ".auth.SplashScreenActivity">
+
+	<android.support.constraint.Guideline
+		android:id = "@+id/horizontal_middle_guideline"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:orientation = "horizontal"
+		app:layout_constraintGuide_percent = "0.5" />
+
+	<android.support.constraint.Guideline
+		android:id = "@+id/vertical_middle_guideline"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:orientation = "vertical"
+		app:layout_constraintGuide_percent = "0.5" />
+
+	<ImageView
+		android:id = "@+id/logotype"
+		android:layout_width = "256dp"
+		android:layout_height = "256dp"
+		android:layout_marginStart = "16dp"
+		android:layout_marginTop = "16dp"
+		android:layout_marginEnd = "16dp"
+		android:layout_marginBottom = "16dp"
+		android:contentDescription = "@string/content_description_logotype"
+		app:layout_constraintBottom_toTopOf = "@+id/horizontal_middle_guideline"
+		app:layout_constraintEnd_toEndOf = "parent"
+		app:layout_constraintStart_toStartOf = "parent"
+		app:layout_constraintTop_toTopOf = "parent" />
+
+	<ProgressBar
+		android:id = "@+id/progress_bar"
+		style = "?android:attr/progressBarStyleHorizontal"
+		android:layout_width = "240dp"
+		android:layout_height = "wrap_content"
+		android:layout_marginStart = "16dp"
+		android:layout_marginTop = "16dp"
+		android:layout_marginEnd = "16dp"
+		android:layout_marginBottom = "16dp"
+		android:visibility = "invisible"
+		app:layout_constraintBottom_toBottomOf = "parent"
+		app:layout_constraintEnd_toEndOf = "parent"
+		app:layout_constraintStart_toStartOf = "parent"
+		app:layout_constraintTop_toTopOf = "@+id/horizontal_middle_guideline" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">ATA</string>
+
+    <string name="content_description_logotype">ATA</string>
+    <string name="content_description_patient_profile_picture">Patient profile picture</string>
+
+    <string name="successfully_login_message">Hi, <b>%1$s</b>!\nLogin Successfully.</string>
+    <string name="welcome_message">Welcome.</string>
+
+    <string-array name="profile_picture_dialog_options">
+        <item>Photo</item>
+        <item>Gallery</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string name="email_field">Email</string>
+    <string name="password_field">Password</string>
+    <string name="confirm_password_field">Confirm Password</string>
+    <string name="first_name_field">First Name</string>
+    <string name="last_name_field">Last Name</string>
+    <string name="birthday_field">Birthday</string>
+    <string name="taxpayer_number_field">Taxpayer Number</string>
+
+    <string name="sign_in_button">Sign In</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="patient_button">Patient</string>
+    <string name="doctor_button">Doctor</string>
+    <string name="next_button">Next</string>
+    <string name="back_button">Back</string>
+    <string name="submit_button">Submit</string>
+    <string name="password_recovery_button">Recover Password</string>
+
+    <string name="title_sign_up">New\nAccount</string>
+    <string name="progress_sign_up">%1$d/%2$d</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_photo">Profile photo</string>
+
+    <string name="todo">TODO</string>
+    <string name="patient_name">Patient</string>
+    <string name="patient_taxpayer_number">Taxpayer Number</string>
+
+</resources>

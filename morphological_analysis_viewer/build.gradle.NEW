@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+
+android
+{
+	compileSdkVersion 28
+
+	defaultConfig
+	{
+		minSdkVersion 22
+		targetSdkVersion 28
+		versionCode 1
+		versionName '0.1'
+		ndk
+		{
+			abiFilters 'armeabi-v7a', 'x86'
+		}
+	}
+
+	lintOptions
+	{
+		abortOnError false
+	}
+
+	aaptOptions
+	{
+		noCompress '.unity3d', '.ress', '.resource', '.obb'
+	}
+	
+	buildTypes
+	{
+		debug
+		{
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-unity.txt'
+			jniDebuggable true
+		}
+	}
+	
+	
+}
+
+dependencies
+{
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
+	    implementation(name: 'VuforiaWrapper', ext:'aar')
+
+}

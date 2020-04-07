@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1045318889452",
+    "firebase_url": "https://beacom-platform-production.firebaseio.com",
+    "project_id": "beacom-platform-production",
+    "storage_bucket": "beacom-platform-production.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045318889452:android:9856300a8a84aebb",
+        "android_client_info": {
+          "package_name": "br.com.cpmh.ata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045318889452-oveaf8sgi6ld2u1vbkk86smildkoblqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7hi765i1apXAdjl0M4rYC6bs0NbH7SA8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

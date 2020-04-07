@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultMap>
+	<entry>
+		<key>SIGN_IN_FAILED_ATTEMPTS_LIMIT</key>
+		<value>5</value>
+	</entry>
+	<entry>
+		<key>SIGN_IN_DISABLED_ATTEMPTS_DURATION</key>
+		<value>15</value>
+	</entry>
+	<entry>
+		<key>PASSWORD_MINIMUM_LENGTH</key>
+		<value>6</value>
+	</entry>
+</defaultMap>

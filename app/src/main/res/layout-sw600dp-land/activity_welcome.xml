@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+	xmlns:app = "http://schemas.android.com/apk/res-auto"
+	xmlns:tools = "http://schemas.android.com/tools"
+	android:id = "@+id/welcome_layout"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"
+	tools:context = ".auth.WelcomeActivity">
+
+	<android.support.constraint.Guideline
+		android:id = "@+id/vertical_middle_guideline"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:orientation = "vertical"
+		app:layout_constraintGuide_percent = "0.5" />
+
+	<android.support.constraint.Guideline
+		android:id = "@+id/horizontal_middle_guideline"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:orientation = "horizontal"
+		app:layout_constraintGuide_percent = "0.5" />
+
+	<ImageView
+		android:id = "@+id/logotype"
+		android:layout_width = "128dp"
+		android:layout_height = "128dp"
+		android:layout_marginStart = "16dp"
+		android:layout_marginTop = "16dp"
+		android:layout_marginEnd = "16dp"
+		android:layout_marginBottom = "16dp"
+		android:contentDescription = "@string/content_description_logotype"
+		app:layout_constraintBottom_toTopOf = "@+id/horizontal_middle_guideline"
+		app:layout_constraintEnd_toEndOf = "parent"
+		app:layout_constraintStart_toStartOf = "parent"
+		app:layout_constraintTop_toTopOf = "parent" />
+
+	<TextView
+		android:id = "@+id/successfully_login_message"
+		android:layout_width = "480dp"
+		android:layout_height = "wrap_content"
+		android:layout_marginStart = "32dp"
+		android:layout_marginTop = "32dp"
+		android:text = "@string/successfully_login_message"
+		android:textSize = "48sp"
+		app:layout_constraintEnd_toEndOf = "@+id/logotype"
+		app:layout_constraintStart_toStartOf = "@+id/logotype"
+		app:layout_constraintTop_toTopOf = "@+id/horizontal_middle_guideline" />
+
+	<TextView
+		android:id = "@+id/welcome_message"
+		android:layout_width = "0dp"
+		android:layout_height = "wrap_content"
+		android:layout_marginTop = "32dp"
+		android:layout_marginEnd = "32dp"
+		android:layout_marginBottom = "32dp"
+		android:text = "@string/welcome_message"
+		android:textSize = "48sp"
+		app:layout_constraintBottom_toBottomOf = "parent"
+		app:layout_constraintEnd_toEndOf = "@+id/successfully_login_message"
+		app:layout_constraintStart_toStartOf = "@+id/successfully_login_message"
+		app:layout_constraintTop_toBottomOf = "@+id/successfully_login_message" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name = "error_empty_field">This field cannot be empty.</string>
+	<string name = "error_badly_formatted_email"> </string>
+	<string name = "error_weak_password"> </string>
+	<string name = "error_wrong_email"> </string>
+	<string name = "error_wrong_password"> </string>
+	<string name = "error_authentication_failed"> </string>
+	<string name = "error_password_recovery_failed"> </string>
+	<string name = "error_password_mismatch"> </string>
+	<string name = "error_invalid_birthday"> </string>
+	<string name = "error_invalid_taxpayer_number">This taxpayer number is invalid.</string>
+
+	<plurals name = "error_too_many_sign_in_attempts">
+		<item quantity = "one">Too many failed sign in attempts. Please try again in %1$d minute.</item>
+		<item quantity = "other">Too many failed sign in attempts. Please try again in %1$d minutes.</item>
+	</plurals>
+
+</resources>

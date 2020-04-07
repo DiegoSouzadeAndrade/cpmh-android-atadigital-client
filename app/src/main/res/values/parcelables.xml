@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name = "intent_parcelable_patient_key">INTENT_PARCELABLE_PATIENT_KEY</string>
+	<string name = "intent_parcelable_user_profile_key">INTENT_PARCELABLE_USER_PROFILE_KEY</string>
+
+	<string name = "bundle_parcelable_doctor_key">BUNDLE_PARCELABLE_DOCTOR_KEY</string>
+	<string name = "bundle_parcelable_patient_key">BUNDLE_PARCELABLE_PATIENT_KEY</string>
+	<string name = "bundle_parcelable_user_profile_key">BUNDLE_PARCELABLE_USER_PROFILE_KEY</string>
+	<string name = "bundle_parcelable_morphological_analyses_key">BUNDLE_PARCELABLE_MORPHOLOGICAL_ANALYSES_KEY</string>
+</resources>

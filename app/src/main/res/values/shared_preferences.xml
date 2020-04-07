@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name = "password_minimum_length_key">PASSWORD_MINIMUM_LENGTH</string>
+
+	<string name = "shared_preferences_key">SHARED_PREFERENCES</string>
+
+	<string name = "sign_in_failed_attempts_count_key">SIGN_IN_FAILED_ATTEMPTS_COUNT</string>
+	<string name = "sign_in_failed_attempts_limit_key">SIGN_IN_FAILED_ATTEMPTS_LIMIT</string>
+	<string name = "sign_in_attempts_disabled_date_key">SIGN_IN_DISABLED_ATTEMPTS_DATE</string>
+	<string name = "sign_in_attempts_disabled_duration_key">SIGN_IN_DISABLED_ATTEMPTS_DURATION</string>
+	<string name = "sign_in_attempts_disabled_remaining_time_key">SIGN_IN_DISABLED_ATTEMPTS_TIMER</string>
+
+	<string name = "urgent_update_pending_key">URGENT_UPDATE_PENDING</string>
+
+</resources>
